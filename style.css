@@ -172,7 +172,7 @@ mark {
 	position: relative;
 }
 .illust3::before {
-	content: url("../images/illust3.png");
+	content: url("illust3.png");
 	position: absolute;
 	bottom: -130px;
 	left: 50px;
@@ -220,7 +220,7 @@ mark {
 }
 .illust4::after {
 	position: absolute;
-	content: url("../images/illust4.png");
+	content: url("illust4.png");
 	top: 550px;
 	right: 100px;
 	z-index: 100;
@@ -228,7 +228,7 @@ mark {
 
 /* 注意事項 */
 aside {
-    background: url(../images/asideimage.png) no-repeat center center/cover;
+    background: url(asideimage.png) no-repeat center center/cover;
 }
 .attention_padding {
     padding: 100px 0 80px;
@@ -239,21 +239,21 @@ aside {
 }
 .illust5::before {
 	position: absolute;
-	content: url("../images/illust5.png");
+	content: url("illust5.png");
 	z-index: 100;
 	left: 150px;
 	top: 0;
 }
 .illust6::before {
 	position: absolute;
-	content: url("../images/illust6.png");
+	content: url("illust6.png");
 	z-index: 100;
 	left: 350px;
 	top: 100px;
 }
 .illust7::after {
 	position: absolute;
-	content: url("../images/illust7.png");
+	content: url("illust7.png");
 	z-index: 100;
 	right: 250px;
 	top: 150px;
@@ -337,7 +337,7 @@ main section ul li {
 }
 .illust1::before {
 	content: "";
-	background-image: url("../images/illust1.png");
+	background-image: url("illust1.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -355,7 +355,7 @@ main section ul li {
 }
 .illust2::after {
 	content: "";
-	background-image: url("../images/illust2.png");
+	background-image: url("illust2.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -438,7 +438,7 @@ p.introduce {
 }
 .illust3::before {
 	content: "";
-	background-image: url("../images/illust3.png");
+	background-image: url("illust3.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -451,7 +451,7 @@ p.introduce {
 }
 	.illust4::after {
 		content: "";
-	background-image: url("../images/illust4.png");
+	background-image: url("illust4.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -495,7 +495,7 @@ p.introduce {
 	
 	.illust5::before {
 		content: "";
-	background-image: url("../images/illust5.png");
+	background-image: url("illust5.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -509,7 +509,7 @@ p.introduce {
 	
 .illust6::before {
 	content: "";
-	background-image: url("../images/illust6.png");
+	background-image: url("illust6.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -522,7 +522,7 @@ p.introduce {
 }
 .illust7::after {
 	content: "";
-	background-image: url("../images/illust7.png");
+	background-image: url("illust7.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
