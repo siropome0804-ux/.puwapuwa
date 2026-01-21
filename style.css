@@ -92,7 +92,7 @@ main section ul li {
 	position: relative;
 }
 .illust1::before {
-	content: url("../images/illust1.png");
+	content: url("illust1.png");
 	position: absolute;
 	bottom: -80px;
 	left: 100px;
@@ -105,7 +105,7 @@ main section ul li {
 	position: relative;
 }
 .illust2::after {
-	content: url("../images/illust2.png");
+	content: url("illust2.png");
 	position: absolute;
 	bottom: -80px;
 	right: 100px;
