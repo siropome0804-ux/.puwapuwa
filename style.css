@@ -494,7 +494,7 @@ p.introduce {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 1rem;
+    gap: 2rem 0rem;
 }
 .item img {
     border-radius: 15px;
