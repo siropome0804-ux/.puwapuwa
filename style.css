@@ -330,13 +330,14 @@ h1 img {
 main section ul {
 	height: 450px;
 	overflow: hidden scroll;
-	margin: 0 30px;
+	margin: 0 20px;
 }
 main section ul li {
     border: solid #ea84b1;
     border-width: 0px 0 1px 0;
-    margin: 30px 30px;
+    margin: 30px 20px;
 	padding: 20px 0;
+	text-align: left;
 }
 #newsArea {
 	position: relative;
