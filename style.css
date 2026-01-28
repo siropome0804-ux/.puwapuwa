@@ -19,6 +19,7 @@ body{
   font-weight: 700;
   font-style: normal;
   color: #333333;
+  background-color: #ffffff; 
 }
 a {
     text-decoration: none;
@@ -52,6 +53,7 @@ section {
 
 
 /* ナビゲーション　*/
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -221,14 +223,14 @@ mark {
 .illust4::after {
 	position: absolute;
 	content: url("illust4.png");
-	top: 550px;
-	right: 100px;
+	top: -50px;
+	right: 40px;
 	z-index: 100;
 }
 
 /* 注意事項 */
 aside {
-    background: url(asideimage.png) no-repeat center center/cover;
+    background: url("asideimage.png") no-repeat center center/cover;
 }
 .attention_padding {
     padding: 100px 0 80px;
@@ -283,6 +285,7 @@ footer {
 
 /* スマホ用 */
 @media screen and (max-width: 640px) {
+	
 	/* 全体設定　*/
 	.container2 {
 		display: block;
@@ -304,6 +307,7 @@ h3 {
     padding: 300px 0 0;
 }
 	
+
 	/* ナビゲーション */
 	.container {
     display: flex;
@@ -319,18 +323,20 @@ nav ul li {
 	
 /* logo */
 h1 img {
-    width: 100vw;
-	height: 25vh;
+    width: 100%;
+	height: auto;
 }
 	/* 最新情報　*/
 main section ul {
 	height: 450px;
 	overflow: hidden scroll;
+	margin: 0 30px;
 }
 main section ul li {
     border: solid #ea84b1;
     border-width: 0px 0 1px 0;
-    padding: 40px 0;
+    margin: 30px 30px;
+	padding: 20px 0;
 }
 #newsArea {
 	position: relative;
@@ -341,12 +347,12 @@ main section ul li {
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
-	bottom: -80px;
-	left: 30px;
+	bottom: -50px;
+	left: 20px;
 	z-index: 100;
 	
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 }
 	/* プロフィール　*/
 #profielArea {
@@ -359,12 +365,12 @@ main section ul li {
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
-	bottom: -80px;
+	bottom: -50px;
 	right: 30px;
 	z-index: 100;
 	
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 }
 	.profiel_img {
 		text-align: center;
@@ -373,6 +379,8 @@ main section ul li {
 	border-radius: 50%;
 	display: block;
 	margin: 0 auto;
+	width: 200px;
+	height: 200px;
 	
 }
 	.profiel_name {
@@ -408,11 +416,15 @@ main section ul li {
 p.profiel_text{
 	margin-top: 30px;
 	line-height: 1.9;
+	text-align: left;
 }
 p.introduce {
     line-height: 1.9;
     max-width: 700px; /* 横幅制限 */
     margin: 0 auto;   /* 中央寄せ */
+	text-align: left;
+	display: inline-block;
+	padding: 0 30px;
 }
 
 	/* 開催日時　*/
@@ -442,12 +454,12 @@ p.introduce {
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
-	bottom: -90px;
+	bottom: -60px;
 	left: 20px;
 	z-index: 100;
 	
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 }
 	.illust4::after {
 		content: "";
@@ -459,8 +471,8 @@ p.introduce {
 	right: 40px;
 	z-index: 100;
 		
-		width: 100px;
-	height: 100px;
+		width: 70px;
+	height: 70px;
 }
 
 .unity {
@@ -492,7 +504,6 @@ p.introduce {
 }
 
 	/* 注意事項 */
-	
 	.illust5::before {
 		content: "";
 	background-image: url("illust5.png");
@@ -515,10 +526,10 @@ p.introduce {
 	position: absolute;
 	z-index: 100;
 	left: 90px;
-	top: 230px;
+	top: 190px;
 	
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 .illust7::after {
 	content: "";
@@ -530,8 +541,13 @@ p.introduce {
 	right: 30px;
 	top: 220px;
 	
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 }
-
+	.asideArea p {
+		text-align: left;
+		display: inline-block;
+		margin: 0 30px;
+	}
+	
 }
