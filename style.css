@@ -101,6 +101,24 @@ main section ul li {
 	z-index: 100;
 }
 
+/* キャラ紹介 */
+	.link-chara {
+	  text-align: center;
+	}
+	.link-chara a {
+		display: inline-block;
+		background-color: #333333;
+		color: #ffffff;
+		margin-top: 30px;
+		padding: 15px 20px;
+		border-radius: 10px;
+	}
+	.link-chara a:hover {
+	background-color: #ea84b1;
+	transition: .5s;
+}
+
+
 /* プロフィール　*/
 #profielArea {
     background-color: #fef7fa;
