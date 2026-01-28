@@ -274,6 +274,11 @@ aside {
 	background-color: #333333;
 	transition: .5s;
 }
+.asideArea p {
+		text-align: left;
+	max-width: 700px;
+		margin: 10px auto;
+}
 
 /* フッター */
 footer {
