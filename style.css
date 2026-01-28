@@ -547,7 +547,9 @@ p.introduce {
 	.asideArea p {
 		text-align: left;
 		display: inline-block;
-		margin: 0 30px;
+	margin: 5px 30px;
+		font-size: 14px;
+		line-height: 1.6;
 	}
 	
 }
