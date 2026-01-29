@@ -478,7 +478,7 @@ p.introduce {
     color: #ffffff;
 }
 .place {
-font-size: 22px;
+	font-size: 20px;
 	color: #ffffff;
 	background-color: #ea84b1;
 	border-radius: 25px;
@@ -486,7 +486,7 @@ font-size: 22px;
 }
 .date {
 	margin-top: 30px;
-	font-size: 16px;
+	font-size: 15px;
 	color: #333333;
 }
 #dateArea {
