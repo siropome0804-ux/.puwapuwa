@@ -80,6 +80,12 @@ h1 img {
 	display: block;
 }
 
+/* 見出し */
+.popup-text {
+	font-size: 60px;
+	margin: 120px 0;
+}
+
 /* movie */
 video {
 	max-width: 100%;
@@ -360,6 +366,12 @@ h1 img {
 	height: auto;
 }
 
+/* 見出し */
+.popup-text {
+	font-size: 40px;
+	margin: 80px 0;
+}
+	
 		/* movie */
 video {
 	max-width: 100%;
