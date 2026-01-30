@@ -167,6 +167,18 @@ main section ul li {
 	scale: 1.1 1.1;
 	transition: .5s;
 }
+.grid-chara {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 2rem;
+	justify-items: center;
+}
+.item-chara img {
+    border-radius: 20px;
+}
+.charaname {
+	font-size: 25px;
+}
 
 
 
@@ -458,6 +470,22 @@ main section ul li {
 	width: 100px;
 	height: 100px;
 }
+	
+/* キャラ紹介 */
+	.grid-chara {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 0rem;
+}
+.item-chara img {
+    border-radius: 15px;
+	width: 170px;
+	height: auto;
+}
+.charaname {
+	font-size: 19px;
+}
+	
 	/* プロフィール　*/
 #profielArea {
     background-color: #fef7fa;
