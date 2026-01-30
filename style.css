@@ -369,7 +369,8 @@ h1 img {
 /* 見出し */
 .popup-text {
 	font-size: 40px;
-	margin: 80px 0;
+	margin: 80px auto;
+	max-width: 300px;
 }
 	
 		/* movie */
