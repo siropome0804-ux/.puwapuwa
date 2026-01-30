@@ -133,12 +133,12 @@ main section ul li {
 .breadcrumb li + li::before {
   content: "›";
   margin: 0 8px;
-  color: #999;
+  color: #ffffff;
 }
 
 .breadcrumb a {
   text-decoration: none;
-  color: #007acc;
+  color: #ffffff;
 }
 
 .breadcrumb a:hover {
@@ -146,10 +146,9 @@ main section ul li {
 }
 
 .breadcrumb li[aria-current="page"] {
-  color: #555;
+  color: #333333;
   font-weight: bold;
 }
-
 
 /* キャラ紹介 */
 	.link-chara {
