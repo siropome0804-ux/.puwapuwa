@@ -360,6 +360,14 @@ footer {
     color: #ffffff;
 }
 
+footer p {
+	line-height: 2;
+}
+.footer-text {
+	font-size: 12px;
+}
+
+
 /* スマホ用 */
 @media screen and (max-width: 640px) {
 	
