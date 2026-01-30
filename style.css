@@ -122,18 +122,20 @@ main section ul li {
 	.link-chara {
 	  text-align: center;
 	}
-	.link-chara a {
+.link-chara a {
 		display: inline-block;
-		background-color: #333333;
+		background-color: #4b4b4b;
 		color: #ffffff;
 		margin-top: 30px;
 		padding: 15px 20px;
 		border-radius: 10px;
+		box-shadow: 0px 3px 0px 0px #000000;
 	}
 	.link-chara a:hover {
-	background-color: #ea84b1;
+	scale: 1.1 1.1;
 	transition: .5s;
 }
+
 
 
 /* プロフィール　*/
@@ -156,13 +158,16 @@ main section ul li {
 	justify-content: center;
 }
 
+
 .profielitem a {
 	background-color: #ea84b1;
 	color: #ffffff;
 	border-radius: 20px;
 	padding: 10px 20px;
 	font-size: 14px;
+	box-shadow: 0px 3px 0px 0px #CB4E94;
 }
+
 .profielitem a:hover {
 	color: #333333;
 }
@@ -238,7 +243,7 @@ mark {
 	font-size: 25px;
 }
 .btn {
-    background-color: #333333;
+    background-color: #4B4B4B;
     color: #ffffff;
 	border-radius: 10px;
 	display: block;
@@ -246,10 +251,11 @@ mark {
 	width: fit-content;
 	margin: 100px auto 0;
 	padding: 15px 20px;
+	box-shadow: 0px 3px 0px 0px #000000;
 }
 .btn:hover {
-	scale: 1.2 1.2;
-	transition: .7s;
+	scale: 1.1 1.1;
+	transition: .5s;
 }
 #goodsArea {
 	position: relative;
