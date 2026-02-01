@@ -133,12 +133,12 @@ main section ul li {
 .breadcrumb li + li::before {
   content: "›";
   margin: 0 8px;
-  color: #ffffff;
+  color: #333333;
 }
 
 .breadcrumb a {
   text-decoration: none;
-  color: #ffffff;
+  color: #5d6df4;
 }
 
 .breadcrumb a:hover {
