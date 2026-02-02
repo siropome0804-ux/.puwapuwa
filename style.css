@@ -366,6 +366,26 @@ aside {
 		margin: 10px auto;
 }
 
+.btn_X {
+    background-color: #ea84b1;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 14px;
+	box-shadow: 0px 3px 0px 0px #CB4E94;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+.btn_X a {
+    color: #ffffff;
+}
+.btn_X a:hover {
+	color: #333333;
+}
+
+
 /* フッター */
 footer {
     background-color: #ea84b1;
