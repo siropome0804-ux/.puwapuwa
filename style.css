@@ -330,21 +330,21 @@ aside {
 	content: url("illust5.png");
 	z-index: 100;
 	left: 150px;
-	top: 0;
+	top: 80;
 }
 .illust6::before {
 	position: absolute;
 	content: url("illust6.png");
 	z-index: 100;
 	left: 350px;
-	top: 100px;
+	top: 150px;
 }
 .illust7::after {
 	position: absolute;
 	content: url("illust7.png");
 	z-index: 100;
 	right: 250px;
-	top: 150px;
+	top: 230px;
 }
 .btn_wrap {
 	text-align: center;
@@ -668,7 +668,7 @@ p.introduce {
 	position: absolute;
 	z-index: 100;
 	left: 30px;
-	top: 150px;
+	top: 200px;
 		
 		width: 140px;
 	height: 140px;
@@ -682,7 +682,7 @@ p.introduce {
 	position: absolute;
 	z-index: 100;
 	left: 90px;
-	top: 190px;
+	top: 230px;
 	
 	width: 60px;
 	height: 60px;
@@ -695,7 +695,7 @@ p.introduce {
 	position: absolute;
 	z-index: 100;
 	right: 30px;
-	top: 220px;
+	top: 260px;
 	
 	width: 90px;
 	height: 90px;
